@@ -1,0 +1,8 @@
+platform :ios, "7.0"
+
+
+target 'PanoramaGL' do
+   pod 'PanoramaGL', '~> 1.0.3'
+
+end
+

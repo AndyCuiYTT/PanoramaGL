@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B6276431E9733190013E559 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6276421E9733190013E559 /* main.m */; };
+		3B6276461E9733190013E559 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6276451E9733190013E559 /* AppDelegate.m */; };
+		3B6276491E9733190013E559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6276481E9733190013E559 /* ViewController.m */; };
+		3B62764C1E9733190013E559 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B62764A1E9733190013E559 /* Main.storyboard */; };
+		3B62764E1E9733190013E559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B62764D1E9733190013E559 /* Assets.xcassets */; };
+		3B6276511E9733190013E559 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B62764F1E9733190013E559 /* LaunchScreen.storyboard */; };
+		3B62765C1E9733190013E559 /* PanoramaGLUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B62765B1E9733190013E559 /* PanoramaGLUITests.m */; };
+		3B6276751E976F310013E559 /* hotspot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276671E976F310013E559 /* hotspot.png */; };
+		3B6276761E976F310013E559 /* json.data in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276681E976F310013E559 /* json.data */; };
+		3B6276771E976F310013E559 /* json_cubic.data in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276691E976F310013E559 /* json_cubic.data */; };
+		3B6276781E976F310013E559 /* json_s2.data in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766A1E976F310013E559 /* json_s2.data */; };
+		3B6276791E976F310013E559 /* pano_b.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766B1E976F310013E559 /* pano_b.jpg */; };
+		3B62767A1E976F310013E559 /* pano_d.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766C1E976F310013E559 /* pano_d.jpg */; };
+		3B62767B1E976F310013E559 /* pano_f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766D1E976F310013E559 /* pano_f.jpg */; };
+		3B62767C1E976F310013E559 /* pano_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766E1E976F310013E559 /* pano_l.jpg */; };
+		3B62767D1E976F310013E559 /* pano_preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B62766F1E976F310013E559 /* pano_preview.jpg */; };
+		3B62767E1E976F310013E559 /* pano_r.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276701E976F310013E559 /* pano_r.jpg */; };
+		3B62767F1E976F310013E559 /* pano_sphere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276711E976F310013E559 /* pano_sphere.jpg */; };
+		3B6276801E976F310013E559 /* pano_sphere2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276721E976F310013E559 /* pano_sphere2.jpg */; };
+		3B6276811E976F310013E559 /* pano_sphere_preview.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276731E976F310013E559 /* pano_sphere_preview.jpg */; };
+		3B6276821E976F310013E559 /* pano_u.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B6276741E976F310013E559 /* pano_u.jpg */; };
+		98FE263F35665E63A99897B7 /* libPods-PanoramaGL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D116D3F73AA4945304DBDF62 /* libPods-PanoramaGL.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B6276581E9733190013E559 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B6276361E9733180013E559 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B62763D1E9733190013E559;
+			remoteInfo = PanoramaGL;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		218197A4C20070658E08C173 /* Pods-PanoramaGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoramaGL.release.xcconfig"; path = "Pods/Target Support Files/Pods-PanoramaGL/Pods-PanoramaGL.release.xcconfig"; sourceTree = "<group>"; };
+		3B62763E1E9733190013E559 /* PanoramaGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramaGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B6276421E9733190013E559 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B6276441E9733190013E559 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B6276451E9733190013E559 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B6276471E9733190013E559 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B6276481E9733190013E559 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B62764B1E9733190013E559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B62764D1E9733190013E559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B6276501E9733190013E559 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B6276521E9733190013E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6276571E9733190013E559 /* PanoramaGLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanoramaGLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B62765B1E9733190013E559 /* PanoramaGLUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanoramaGLUITests.m; sourceTree = "<group>"; };
+		3B62765D1E9733190013E559 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B6276671E976F310013E559 /* hotspot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotspot.png; sourceTree = "<group>"; };
+		3B6276681E976F310013E559 /* json.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json.data; sourceTree = "<group>"; };
+		3B6276691E976F310013E559 /* json_cubic.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_cubic.data; sourceTree = "<group>"; };
+		3B62766A1E976F310013E559 /* json_s2.data */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = json_s2.data; sourceTree = "<group>"; };
+		3B62766B1E976F310013E559 /* pano_b.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_b.jpg; sourceTree = "<group>"; };
+		3B62766C1E976F310013E559 /* pano_d.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_d.jpg; sourceTree = "<group>"; };
+		3B62766D1E976F310013E559 /* pano_f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_f.jpg; sourceTree = "<group>"; };
+		3B62766E1E976F310013E559 /* pano_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_l.jpg; sourceTree = "<group>"; };
+		3B62766F1E976F310013E559 /* pano_preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_preview.jpg; sourceTree = "<group>"; };
+		3B6276701E976F310013E559 /* pano_r.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_r.jpg; sourceTree = "<group>"; };
+		3B6276711E976F310013E559 /* pano_sphere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_sphere.jpg; sourceTree = "<group>"; };
+		3B6276721E976F310013E559 /* pano_sphere2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_sphere2.jpg; sourceTree = "<group>"; };
+		3B6276731E976F310013E559 /* pano_sphere_preview.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_sphere_preview.jpg; sourceTree = "<group>"; };
+		3B6276741E976F310013E559 /* pano_u.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pano_u.jpg; sourceTree = "<group>"; };
+		C55F44A7906575FE18E0B18C /* Pods-PanoramaGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PanoramaGL.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PanoramaGL/Pods-PanoramaGL.debug.xcconfig"; sourceTree = "<group>"; };
+		D116D3F73AA4945304DBDF62 /* libPods-PanoramaGL.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PanoramaGL.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B62763B1E9733190013E559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98FE263F35665E63A99897B7 /* libPods-PanoramaGL.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6276541E9733190013E559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1754E5B2CED18BD62BD9D972 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C55F44A7906575FE18E0B18C /* Pods-PanoramaGL.debug.xcconfig */,
+				218197A4C20070658E08C173 /* Pods-PanoramaGL.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3B6276351E9733180013E559 = {
+			isa = PBXGroup;
+			children = (
+				3B6276401E9733190013E559 /* PanoramaGL */,
+				3B62765A1E9733190013E559 /* PanoramaGLUITests */,
+				3B62763F1E9733190013E559 /* Products */,
+				1754E5B2CED18BD62BD9D972 /* Pods */,
+				6E1D1C77DB3D39C5D60531CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B62763F1E9733190013E559 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B62763E1E9733190013E559 /* PanoramaGL.app */,
+				3B6276571E9733190013E559 /* PanoramaGLUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B6276401E9733190013E559 /* PanoramaGL */ = {
+			isa = PBXGroup;
+			children = (
+				3B6276661E976F310013E559 /* Resources */,
+				3B6276441E9733190013E559 /* AppDelegate.h */,
+				3B6276451E9733190013E559 /* AppDelegate.m */,
+				3B6276471E9733190013E559 /* ViewController.h */,
+				3B6276481E9733190013E559 /* ViewController.m */,
+				3B62764A1E9733190013E559 /* Main.storyboard */,
+				3B62764D1E9733190013E559 /* Assets.xcassets */,
+				3B62764F1E9733190013E559 /* LaunchScreen.storyboard */,
+				3B6276521E9733190013E559 /* Info.plist */,
+				3B6276411E9733190013E559 /* Supporting Files */,
+			);
+			path = PanoramaGL;
+			sourceTree = "<group>";
+		};
+		3B6276411E9733190013E559 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B6276421E9733190013E559 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B62765A1E9733190013E559 /* PanoramaGLUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B62765B1E9733190013E559 /* PanoramaGLUITests.m */,
+				3B62765D1E9733190013E559 /* Info.plist */,
+			);
+			path = PanoramaGLUITests;
+			sourceTree = "<group>";
+		};
+		3B6276661E976F310013E559 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B6276671E976F310013E559 /* hotspot.png */,
+				3B6276681E976F310013E559 /* json.data */,
+				3B6276691E976F310013E559 /* json_cubic.data */,
+				3B62766A1E976F310013E559 /* json_s2.data */,
+				3B62766B1E976F310013E559 /* pano_b.jpg */,
+				3B62766C1E976F310013E559 /* pano_d.jpg */,
+				3B62766D1E976F310013E559 /* pano_f.jpg */,
+				3B62766E1E976F310013E559 /* pano_l.jpg */,
+				3B62766F1E976F310013E559 /* pano_preview.jpg */,
+				3B6276701E976F310013E559 /* pano_r.jpg */,
+				3B6276711E976F310013E559 /* pano_sphere.jpg */,
+				3B6276721E976F310013E559 /* pano_sphere2.jpg */,
+				3B6276731E976F310013E559 /* pano_sphere_preview.jpg */,
+				3B6276741E976F310013E559 /* pano_u.jpg */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6E1D1C77DB3D39C5D60531CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D116D3F73AA4945304DBDF62 /* libPods-PanoramaGL.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B62763D1E9733190013E559 /* PanoramaGL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6276601E9733190013E559 /* Build configuration list for PBXNativeTarget "PanoramaGL" */;
+			buildPhases = (
+				967C640C41197DF2B0C040EE /* [CP] Check Pods Manifest.lock */,
+				3B62763A1E9733190013E559 /* Sources */,
+				3B62763B1E9733190013E559 /* Frameworks */,
+				3B62763C1E9733190013E559 /* Resources */,
+				FC089BA15ED9F7531BF51834 /* [CP] Embed Pods Frameworks */,
+				6E67A0B3EB1FA8792F2D038F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PanoramaGL;
+			productName = PanoramaGL;
+			productReference = 3B62763E1E9733190013E559 /* PanoramaGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B6276561E9733190013E559 /* PanoramaGLUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B6276631E9733190013E559 /* Build configuration list for PBXNativeTarget "PanoramaGLUITests" */;
+			buildPhases = (
+				3B6276531E9733190013E559 /* Sources */,
+				3B6276541E9733190013E559 /* Frameworks */,
+				3B6276551E9733190013E559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B6276591E9733190013E559 /* PBXTargetDependency */,
+			);
+			name = PanoramaGLUITests;
+			productName = PanoramaGLUITests;
+			productReference = 3B6276571E9733190013E559 /* PanoramaGLUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B6276361E9733180013E559 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Andy;
+				TargetAttributes = {
+					3B62763D1E9733190013E559 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 526L66BS49;
+						ProvisioningStyle = Automatic;
+					};
+					3B6276561E9733190013E559 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = DE9CE48EXH;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B62763D1E9733190013E559;
+					};
+				};
+			};
+			buildConfigurationList = 3B6276391E9733180013E559 /* Build configuration list for PBXProject "PanoramaGL" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B6276351E9733180013E559;
+			productRefGroup = 3B62763F1E9733190013E559 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B62763D1E9733190013E559 /* PanoramaGL */,
+				3B6276561E9733190013E559 /* PanoramaGLUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B62763C1E9733190013E559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B62767B1E976F310013E559 /* pano_f.jpg in Resources */,
+				3B6276791E976F310013E559 /* pano_b.jpg in Resources */,
+				3B62767D1E976F310013E559 /* pano_preview.jpg in Resources */,
+				3B6276781E976F310013E559 /* json_s2.data in Resources */,
+				3B6276761E976F310013E559 /* json.data in Resources */,
+				3B6276511E9733190013E559 /* LaunchScreen.storyboard in Resources */,
+				3B62764E1E9733190013E559 /* Assets.xcassets in Resources */,
+				3B62767A1E976F310013E559 /* pano_d.jpg in Resources */,
+				3B62764C1E9733190013E559 /* Main.storyboard in Resources */,
+				3B6276771E976F310013E559 /* json_cubic.data in Resources */,
+				3B62767F1E976F310013E559 /* pano_sphere.jpg in Resources */,
+				3B6276811E976F310013E559 /* pano_sphere_preview.jpg in Resources */,
+				3B6276821E976F310013E559 /* pano_u.jpg in Resources */,
+				3B6276801E976F310013E559 /* pano_sphere2.jpg in Resources */,
+				3B62767E1E976F310013E559 /* pano_r.jpg in Resources */,
+				3B6276751E976F310013E559 /* hotspot.png in Resources */,
+				3B62767C1E976F310013E559 /* pano_l.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6276551E9733190013E559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E67A0B3EB1FA8792F2D038F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoramaGL/Pods-PanoramaGL-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		967C640C41197DF2B0C040EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC089BA15ED9F7531BF51834 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PanoramaGL/Pods-PanoramaGL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B62763A1E9733190013E559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B6276491E9733190013E559 /* ViewController.m in Sources */,
+				3B6276461E9733190013E559 /* AppDelegate.m in Sources */,
+				3B6276431E9733190013E559 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B6276531E9733190013E559 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B62765C1E9733190013E559 /* PanoramaGLUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B6276591E9733190013E559 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B62763D1E9733190013E559 /* PanoramaGL */;
+			targetProxy = 3B6276581E9733190013E559 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B62764A1E9733190013E559 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B62764B1E9733190013E559 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B62764F1E9733190013E559 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B6276501E9733190013E559 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B62765E1E9733190013E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B62765F1E9733190013E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B6276611E9733190013E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55F44A7906575FE18E0B18C /* Pods-PanoramaGL.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526L66BS49;
+				INFOPLIST_FILE = PanoramaGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.PanoramaGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B6276621E9733190013E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 218197A4C20070658E08C173 /* Pods-PanoramaGL.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 526L66BS49;
+				INFOPLIST_FILE = PanoramaGL/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.PanoramaGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B6276641E9733190013E559 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DE9CE48EXH;
+				INFOPLIST_FILE = PanoramaGLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.PanoramaGLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanoramaGL;
+			};
+			name = Debug;
+		};
+		3B6276651E9733190013E559 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = DE9CE48EXH;
+				INFOPLIST_FILE = PanoramaGLUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ay.PanoramaGLUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PanoramaGL;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B6276391E9733180013E559 /* Build configuration list for PBXProject "PanoramaGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B62765E1E9733190013E559 /* Debug */,
+				3B62765F1E9733190013E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6276601E9733190013E559 /* Build configuration list for PBXNativeTarget "PanoramaGL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6276611E9733190013E559 /* Debug */,
+				3B6276621E9733190013E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B6276631E9733190013E559 /* Build configuration list for PBXNativeTarget "PanoramaGLUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B6276641E9733190013E559 /* Debug */,
+				3B6276651E9733190013E559 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B6276361E9733180013E559 /* Project object */;
+}
